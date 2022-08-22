@@ -1,13 +1,10 @@
-# Sample Hardhat Project
+# Cool Domains
+Application on Polygon network to build a custom domain name similar to ENS (Ethereum Name Service). For ENS they have .eth domain that you see being used all over the place.
+For this specific smart contract, I'm going to build TNS = Trader name Service as an example. 
+So it will be .trader for the domain.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+## Tech Stack
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+- Solidity
+- Hardhat
+- JS
